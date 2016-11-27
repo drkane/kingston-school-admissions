@@ -1,0 +1,1746 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.248002,
+                    51.399603
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Burlington Road",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": 0.472,
+                    "2015": 1.174,
+                    "2016": null
+                },
+                "easting": 521974,
+                "gender": "Mixed",
+                "latitude": 51.399603,
+                "longitude": -0.248002,
+                "maxage": 11,
+                "minage": 7,
+                "name": "Burlington Junior School",
+                "northing": 168186,
+                "nursery_class": false,
+                "postcode": "KT3 4LT",
+                "reception_class": false,
+                "type": "Community Junior"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296728,
+                    51.365376
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Buckland Road",
+                "add2": "Chessington",
+                "distance": {
+                    "2014": 1.256,
+                    "2015": 1.033,
+                    "2016": 3.188
+                },
+                "easting": 518673,
+                "gender": "Mixed",
+                "latitude": 51.365376,
+                "longitude": -0.296728,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Castle Hill Primary School",
+                "northing": 164300,
+                "nursery_class": true,
+                "postcode": "KT9 1JE",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.265364,
+                    51.41567
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Coombe Lane West",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": 0.229,
+                    "2015": null,
+                    "2016": 1.025
+                },
+                "easting": 520724,
+                "gender": "Mixed",
+                "latitude": 51.41567,
+                "longitude": -0.265364,
+                "maxage": 11,
+                "minage": 7,
+                "name": "Coombe Hill Junior School",
+                "northing": 169944,
+                "nursery_class": false,
+                "postcode": "KT2 7DD",
+                "reception_class": false,
+                "type": "Community Junior"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.307994,
+                    51.359433
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Ellingham Road",
+                "add2": "Chessington",
+                "distance": {
+                    "2014": 1.053,
+                    "2015": 0.536,
+                    "2016": 2.917
+                },
+                "easting": 517904,
+                "gender": "Mixed",
+                "latitude": 51.359433,
+                "longitude": -0.307994,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Ellingham Primary School",
+                "northing": 163621,
+                "nursery_class": true,
+                "postcode": "KT9 2JA",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.301809,
+                    51.423334
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Richmond Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": 1.141,
+                    "2015": 0.696,
+                    "2016": 0.791
+                },
+                "easting": 518170,
+                "gender": "Mixed",
+                "latitude": 51.423334,
+                "longitude": -0.301809,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Fern Hill Primary School",
+                "northing": 170737,
+                "nursery_class": true,
+                "postcode": "KT2 5PE",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.293662832627,
+                    51.4184496934
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "204 Acre Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 518748,
+                "gender": "Mixed",
+                "latitude": 51.4184496934,
+                "longitude": -0.293662832627,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Kingston Community School",
+                "northing": 170213,
+                "nursery_class": false,
+                "postcode": "KT2 6EX",
+                "reception_class": true,
+                "type": "Free School"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.276683,
+                    51.389624
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Grand Avenue",
+                "add2": "Surbiton",
+                "distance": {
+                    "2014": 1.001,
+                    "2015": 1.725,
+                    "2016": 1.176
+                },
+                "easting": 520005,
+                "gender": "Mixed",
+                "latitude": 51.389624,
+                "longitude": -0.276683,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Grand Avenue Primary and Nursery School",
+                "northing": 167029,
+                "nursery_class": false,
+                "postcode": "KT5 9HU",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.237594,
+                    51.386128
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Green Lane",
+                "add2": "Worcester Park",
+                "distance": {
+                    "2014": 3.314,
+                    "2015": 0.878,
+                    "2016": 0.542
+                },
+                "easting": 522734,
+                "gender": "Mixed",
+                "latitude": 51.386128,
+                "longitude": -0.237594,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Green Lane Primary and Nursery School",
+                "northing": 166705,
+                "nursery_class": false,
+                "postcode": "KT4 8AS",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.29506,
+                    51.405252
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Villiers Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2013": 1.012,
+                    "2014": 0.746,
+                    "2015": 0.571,
+                    "2016": 0.537
+                },
+                "easting": 518686,
+                "gender": "Mixed",
+                "latitude": 51.405252,
+                "longitude": -0.29506,
+                "maxage": 11,
+                "minage": 4,
+                "name": "King Athelstan Primary School",
+                "northing": 168737,
+                "nursery_class": true,
+                "postcode": "KT1 3AR",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.274656,
+                    51.40453
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Dickerage Lane",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 520107,
+                "gender": "Mixed",
+                "latitude": 51.40453,
+                "longitude": -0.274656,
+                "maxage": 11,
+                "minage": 4,
+                "name": "King's Oak Primary School",
+                "northing": 168690,
+                "nursery_class": true,
+                "postcode": "KT3 3RZ",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.317092,
+                    51.364366
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Mansfield Road",
+                "add2": "Chessington",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 517258,
+                "gender": "Mixed",
+                "latitude": 51.364366,
+                "longitude": -0.317092,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Lovelace Primary School",
+                "northing": 164155,
+                "nursery_class": true,
+                "postcode": "KT9 2RN",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.259698,
+                    51.386117
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Sheephouse Way",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": 0.973
+                },
+                "easting": 521196,
+                "gender": "Mixed",
+                "latitude": 51.386117,
+                "longitude": -0.259698,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Malden Manor Primary and Nursery School",
+                "northing": 166667,
+                "nursery_class": false,
+                "postcode": "KT3 5PF",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.260924,
+                    51.42769
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Bowness Crescent",
+                "add2": "Kingston Vale",
+                "distance": {
+                    "2014": null,
+                    "2015": 1.538,
+                    "2016": null
+                },
+                "easting": 521001,
+                "gender": "Mixed",
+                "latitude": 51.42769,
+                "longitude": -0.260924,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Robin Hood Primary School",
+                "northing": 171288,
+                "nursery_class": true,
+                "postcode": "SW15 3QL",
+                "reception_class": true,
+                "type": "Community Primary"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.293164,
+                    51.382806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Douglas Road",
+                "add2": "Tolworth",
+                "distance": {
+                    "2014": null,
+                    "2015": 0.24,
+                    "2016": 2.197
+                },
+                "easting": 518876,
+                "gender": "Mixed",
+                "latitude": 51.382806,
+                "longitude": -0.293164,
+                "maxage": 11,
+                "minage": 7,
+                "name": "Tolworth Junior School",
+                "northing": 166244,
+                "nursery_class": false,
+                "postcode": "KT6 7SA",
+                "reception_class": false,
+                "type": "Community Junior"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.286113,
+                    51.417675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Alexandra Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": 0.426,
+                    "2015": 0.323,
+                    "2016": 0.3
+                },
+                "easting": 519276,
+                "gender": "Mixed",
+                "latitude": 51.417675,
+                "longitude": -0.286113,
+                "maxage": 7,
+                "minage": 4,
+                "name": "Alexandra Infant School",
+                "northing": 170133,
+                "nursery_class": true,
+                "postcode": "KT2 6SE",
+                "reception_class": true,
+                "type": "Community Infant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.248002,
+                    51.399603
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Burlington Road",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": 0.746,
+                    "2015": 0.737,
+                    "2016": 0.808
+                },
+                "easting": 521974,
+                "gender": "Mixed",
+                "latitude": 51.399603,
+                "longitude": -0.248002,
+                "maxage": 7,
+                "minage": 4,
+                "name": "Burlington Infant and Nursery School",
+                "northing": 168186,
+                "nursery_class": false,
+                "postcode": "KT3 4LT",
+                "reception_class": true,
+                "type": "Community Infant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.265364,
+                    51.41567
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Coombe Lane West",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": 0.944,
+                    "2015": 1.418,
+                    "2016": 1.278
+                },
+                "easting": 520724,
+                "gender": "Mixed",
+                "latitude": 51.41567,
+                "longitude": -0.265364,
+                "maxage": 7,
+                "minage": 4,
+                "name": "Coombe Hill Infant School",
+                "northing": 169944,
+                "nursery_class": false,
+                "postcode": "KT2 7DD",
+                "reception_class": true,
+                "type": "Community Infant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.306927,
+                    51.394992
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Maple Road",
+                "add2": "Surbiton",
+                "distance": {
+                    "2013": 0.503,
+                    "2014": 0.915,
+                    "2015": 0.807,
+                    "2016": 0.703
+                },
+                "easting": 517887,
+                "gender": "Mixed",
+                "latitude": 51.394992,
+                "longitude": -0.306927,
+                "maxage": 7,
+                "minage": 4,
+                "name": "Maple Infant School",
+                "northing": 167577,
+                "nursery_class": true,
+                "postcode": "KT6 4AL",
+                "reception_class": true,
+                "type": "Community Infant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.293164,
+                    51.382806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "School Lane",
+                "add2": "Tolworth",
+                "distance": {
+                    "2014": 0.845,
+                    "2015": 0.732,
+                    "2016": 0.755
+                },
+                "easting": 518876,
+                "gender": "Mixed",
+                "latitude": 51.382806,
+                "longitude": -0.293164,
+                "maxage": 7,
+                "minage": 4,
+                "name": "Tolworth Infant and Nursery School",
+                "northing": 166244,
+                "nursery_class": true,
+                "postcode": "KT6 7SA",
+                "reception_class": true,
+                "type": "Community Infant"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296316,
+                    51.42214
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Latchmere Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": 0.909,
+                    "2015": 0.528,
+                    "2016": 0.45
+                },
+                "easting": 518555,
+                "gender": "Mixed",
+                "latitude": 51.42214,
+                "longitude": -0.296316,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Latchmere School",
+                "northing": 170613,
+                "nursery_class": true,
+                "postcode": "KT2 5TT",
+                "reception_class": true,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.273729,
+                    51.378744
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Knollmead",
+                "add2": "Tolworth",
+                "distance": {
+                    "2014": 0.485,
+                    "2015": 1.21,
+                    "2016": null
+                },
+                "easting": 520239,
+                "gender": "Mixed",
+                "latitude": 51.378744,
+                "longitude": -0.273729,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Knollmead Primary School",
+                "northing": 165824,
+                "nursery_class": true,
+                "postcode": "KT5 9QP",
+                "reception_class": true,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.293074,
+                    51.421913
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "St Agatha's Drive",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 518781,
+                "gender": "Mixed",
+                "latitude": 51.421913,
+                "longitude": -0.293074,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Agatha's Catholic Primary School",
+                "northing": 170593,
+                "nursery_class": true,
+                "postcode": "KT2 5TY",
+                "reception_class": true,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.259588,
+                    51.406439
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Lime Grove",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": 0.15,
+                    "2015": 0.672,
+                    "2016": 0.579
+                },
+                "easting": 521150,
+                "gender": "Mixed",
+                "latitude": 51.406439,
+                "longitude": -0.259588,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Christ Church New Malden C of E Primary School",
+                "northing": 168927,
+                "nursery_class": false,
+                "postcode": "KT3 3TW",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.286632,
+                    51.391856
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Pine Gardens",
+                "add2": "Surbiton",
+                "distance": {
+                    "2014": 1.49,
+                    "2015": 0.934,
+                    "2016": 0.113
+                },
+                "easting": 519307,
+                "gender": "Mixed",
+                "latitude": 51.391856,
+                "longitude": -0.286632,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Christ Church C of E Primary School",
+                "northing": 167261,
+                "nursery_class": false,
+                "postcode": "KT5 8LJ",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.267734,
+                    51.40432
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Chestnut Grove",
+                "add2": "New Malden",
+                "distance": {
+                    "2014": null,
+                    "2015": 0.952,
+                    "2016": null
+                },
+                "easting": 520589,
+                "gender": "Mixed",
+                "latitude": 51.40432,
+                "longitude": -0.267734,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Corpus Christi Catholic Primary School",
+                "northing": 168678,
+                "nursery_class": false,
+                "postcode": "KT3 3JU",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.300343,
+                    51.391516
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "South Bank Terrace",
+                "add2": "Surbiton",
+                "distance": {
+                    "2013": 0.95,
+                    "2014": 1.09,
+                    "2015": 1.284,
+                    "2016": 0.885
+                },
+                "easting": 518354,
+                "gender": "Mixed",
+                "latitude": 51.391516,
+                "longitude": -0.300343,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Lime Tree Primary School",
+                "northing": 167201,
+                "nursery_class": false,
+                "postcode": "KT6 6DG",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.25868,
+                    51.381498
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "The Manor Drive",
+                "add2": "Worcester Park",
+                "distance": {
+                    "2014": 1.841,
+                    "2015": 1.435,
+                    "2016": null
+                },
+                "easting": 521279,
+                "gender": "Mixed",
+                "latitude": 51.381498,
+                "longitude": -0.25868,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Malden Parochial C of E Primary School",
+                "northing": 166155,
+                "nursery_class": false,
+                "postcode": "KT4 7LW",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.283646,
+                    51.382532
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "399 Ewell Road",
+                "add2": "Tolworth",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": 1.185
+                },
+                "easting": 519539,
+                "gender": "Mixed",
+                "latitude": 51.382532,
+                "longitude": -0.283646,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Our Lady Immaculate Catholic Primary School",
+                "northing": 166229,
+                "nursery_class": false,
+                "postcode": "KT6 7DG",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.306927,
+                    51.394992
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Maple Road",
+                "add2": "Surbiton",
+                "distance": {
+                    "2014": 3.535,
+                    "2015": 3.68,
+                    "2016": 4.252
+                },
+                "easting": 517887,
+                "gender": "Mixed",
+                "latitude": 51.394992,
+                "longitude": -0.306927,
+                "maxage": 11,
+                "minage": 7,
+                "name": "St Andrew's and St Mark's C of E Junior School",
+                "northing": 167577,
+                "nursery_class": false,
+                "postcode": "KT6 4AL",
+                "reception_class": false,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.299616,
+                    51.40414
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Portland Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2016": 0.367
+                },
+                "easting": 518372,
+                "gender": "Mixed",
+                "latitude": 51.40414,
+                "longitude": -0.299616,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St John's C of E Primary School",
+                "northing": 168606,
+                "nursery_class": false,
+                "postcode": "KT1 2SG",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.29498,
+                    51.408551
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "The Fairfield",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 518683,
+                "gender": "Mixed",
+                "latitude": 51.408551,
+                "longitude": -0.29498,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Joseph's Catholic Primary School",
+                "northing": 169104,
+                "nursery_class": false,
+                "postcode": "KT1 2UP",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296305,
+                    51.41624
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Acre Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": null
+                },
+                "easting": 518571,
+                "gender": "Mixed",
+                "latitude": 51.41624,
+                "longitude": -0.296305,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Luke's C of E Primary School",
+                "northing": 169957,
+                "nursery_class": true,
+                "postcode": "KT2 6EN",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.298657,
+                    51.359055
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Church Lane",
+                "add2": "Chessington",
+                "distance": {
+                    "2014": 0.559,
+                    "2015": 0.226,
+                    "2016": 0.329
+                },
+                "easting": 518555,
+                "gender": "Mixed",
+                "latitude": 51.359055,
+                "longitude": -0.298657,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Mary's C of E Primary School",
+                "northing": 163594,
+                "nursery_class": true,
+                "postcode": "KT9 2DH",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.30006,
+                    51.387105
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Langley Road",
+                "add2": "Surbiton",
+                "distance": {
+                    "2014": 1.399,
+                    "2015": 0.877,
+                    "2016": 1.23
+                },
+                "easting": 518385,
+                "gender": "Mixed",
+                "latitude": 51.387105,
+                "longitude": -0.30006,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Matthew's C of E Primary School",
+                "northing": 166711,
+                "nursery_class": false,
+                "postcode": "KT6 6LW",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.303785,
+                    51.36993
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Orchard Road",
+                "add2": "Chessington",
+                "distance": {
+                    "2014": 0.266,
+                    "2015": 0.271,
+                    "2016": 0.33
+                },
+                "easting": 518170,
+                "gender": "Mixed",
+                "latitude": 51.36993,
+                "longitude": -0.303785,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Paul's C of E Primary School",
+                "northing": 164795,
+                "nursery_class": false,
+                "postcode": "KT9 1AJ",
+                "reception_class": true,
+                "type": "Foundation and voluntary aided"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.287504,
+                    51.416625
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Princes Road",
+                "add2": "Kingston upon Thames",
+                "distance": {
+                    "2014": null,
+                    "2015": null,
+                    "2016": 0.73
+                },
+                "easting": 519182,
+                "gender": "Mixed",
+                "latitude": 51.416625,
+                "longitude": -0.287504,
+                "maxage": 11,
+                "minage": 4,
+                "name": "St Paul's C of E Primary School, Kingston Hill",
+                "northing": 170014,
+                "nursery_class": false,
+                "postcode": "KT2 6AZ",
+                "reception_class": true,
+                "type": "Voluntary aided school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.299428,
+                    51.414236
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "12 Cowleaze Road",
+                "add2": "Kingston upon Thames",
+                "easting": 518359,
+                "gender": "Mixed",
+                "latitude": 51.414236,
+                "longitude": -0.299428,
+                "maxage": 11,
+                "minage": 3,
+                "name": "Educare Small School",
+                "northing": 169729,
+                "nursery_class": false,
+                "postcode": "KT2 6DZ",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.273512,
+                    51.41811
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "George Road",
+                "add2": "Kingston upon Thames",
+                "easting": 520151,
+                "gender": "Girls",
+                "latitude": 51.41811,
+                "longitude": -0.273512,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Holy Cross Prep School",
+                "northing": 170202,
+                "nursery_class": false,
+                "postcode": "KT2 7NU",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296159,
+                    51.393083
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "6 Berrylands Road",
+                "add2": "Surbiton",
+                "easting": 518641,
+                "gender": "Mixed",
+                "latitude": 51.393083,
+                "longitude": -0.296159,
+                "maxage": 7,
+                "minage": 3,
+                "name": "Linley House",
+                "northing": 167382,
+                "nursery_class": false,
+                "postcode": "KT5 8RA",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.284614,
+                    51.417374
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "8 Queens Road",
+                "add2": "Kingston upon Thames",
+                "easting": 519381,
+                "gender": "Mixed",
+                "latitude": 51.417374,
+                "longitude": -0.284614,
+                "maxage": 11,
+                "minage": 3,
+                "name": "Park Hill School",
+                "northing": 170102,
+                "nursery_class": false,
+                "postcode": "KT2 7SH",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.270702,
+                    51.417511
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "George Road",
+                "add2": "Kingston upon Thames",
+                "easting": 520348,
+                "gender": "Boys",
+                "latitude": 51.417511,
+                "longitude": -0.270702,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Rokeby School",
+                "northing": 170140,
+                "nursery_class": false,
+                "postcode": "KT2 7PB",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.3055,
+                    51.380296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "107 Ditton Road",
+                "add2": "Surbiton",
+                "easting": 518024,
+                "gender": "Boys",
+                "latitude": 51.380296,
+                "longitude": -0.3055,
+                "maxage": 13,
+                "minage": 7,
+                "name": "Shrewsbury House",
+                "northing": 165945,
+                "nursery_class": false,
+                "postcode": "KT6 6RL",
+                "reception_class": false,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.259186,
+                    51.395453
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "57 Thetford Road",
+                "add2": "New Malden",
+                "easting": 521207,
+                "gender": "Mixed",
+                "latitude": 51.395453,
+                "longitude": -0.259186,
+                "maxage": 11,
+                "minage": 3,
+                "name": "The Study School",
+                "northing": 167706,
+                "nursery_class": false,
+                "postcode": "KT3 5DP",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.302577,
+                    51.397942
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "3 Avenue Elmers",
+                "add2": "Surbiton",
+                "easting": 518182,
+                "gender": "Boys",
+                "latitude": 51.397942,
+                "longitude": -0.302577,
+                "maxage": 11,
+                "minage": 4,
+                "name": "Surbiton High Boys' Preparatory School",
+                "northing": 167912,
+                "nursery_class": false,
+                "postcode": "KT6 4SP",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.263323,
+                    51.397789
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "80 Westbury Road",
+                "add2": "New Malden",
+                "easting": 520913,
+                "gender": "Mixed",
+                "latitude": 51.397789,
+                "longitude": -0.263323,
+                "maxage": 11,
+                "minage": 3,
+                "name": "Westbury House",
+                "northing": 167959,
+                "nursery_class": false,
+                "postcode": "KT3 5AS",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.309298,
+                    51.35679
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Garrison Lane",
+                "add2": "Chessington",
+                "easting": 517820,
+                "gender": "Mixed",
+                "latitude": 51.35679,
+                "longitude": -0.309298,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Chessington Community College",
+                "northing": 163325,
+                "nursery_class": false,
+                "postcode": "KT9 2JS",
+                "reception_class": false,
+                "type": "Community school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.301809,
+                    51.423334
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Richmond Road",
+                "add2": "Kingston upon Thames",
+                "easting": 518170,
+                "gender": "Mixed",
+                "latitude": 51.423334,
+                "longitude": -0.301809,
+                "maxage": 16,
+                "minage": 11,
+                "name": "The Kingston Academy",
+                "northing": 170737,
+                "nursery_class": false,
+                "postcode": "KT2 5PE",
+                "reception_class": false,
+                "type": "Free school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.247604,
+                    51.395325
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "College Gardens, Blakes Lane",
+                "add2": "New Malden",
+                "easting": 522013,
+                "gender": "Boys",
+                "latitude": 51.395325,
+                "longitude": -0.247604,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Coombe Boys' School",
+                "northing": 167711,
+                "nursery_class": false,
+                "postcode": "KT3 6NU",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.263427,
+                    51.410228
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Clarence Avenue",
+                "add2": "New Malden",
+                "easting": 520873,
+                "gender": "Girls",
+                "latitude": 51.410228,
+                "longitude": -0.263427,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Coombe Girls' School",
+                "northing": 169342,
+                "nursery_class": false,
+                "postcode": "KT3 3TU",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.299027,
+                    51.396748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Surbiton Hill Road",
+                "add2": "Surbiton",
+                "easting": 518432,
+                "gender": "Mixed",
+                "latitude": 51.396748,
+                "longitude": -0.299027,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Hollyfield School and Sixth Form Centre",
+                "northing": 167785,
+                "nursery_class": false,
+                "postcode": "KT6 4TU",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.261694,
+                    51.397918
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Sandal Road",
+                "add2": "New Malden",
+                "easting": 521026,
+                "gender": "Girls",
+                "latitude": 51.397918,
+                "longitude": -0.261694,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Holy Cross School",
+                "northing": 167976,
+                "nursery_class": false,
+                "postcode": "KT3 5AR",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.264904,
+                    51.385277
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Manor Drive North",
+                "add2": "New Malden",
+                "easting": 520836,
+                "gender": "Boys",
+                "latitude": 51.385277,
+                "longitude": -0.264904,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Richard Challoner School",
+                "northing": 166565,
+                "nursery_class": false,
+                "postcode": "KT3 5PE",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.301978,
+                    51.375677
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Hook Road",
+                "add2": "Surbiton",
+                "easting": 518281,
+                "gender": "Boys",
+                "latitude": 51.375677,
+                "longitude": -0.301978,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Southborough High School",
+                "northing": 165437,
+                "nursery_class": false,
+                "postcode": "KT6 5AS",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296235,
+                    51.375575
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Fullers Way North",
+                "add2": "Surbiton",
+                "easting": 518681,
+                "gender": "Girls",
+                "latitude": 51.375575,
+                "longitude": -0.296235,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Tolworth Girls' School and Sixth Form",
+                "northing": 165435,
+                "nursery_class": false,
+                "postcode": "KT6 7LQ",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.302934,
+                    51.425572
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Richmond Road",
+                "add2": "Kingston upon Thames",
+                "easting": 518086,
+                "gender": "Girls",
+                "latitude": 51.425572,
+                "longitude": -0.302934,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Tiffin Girls' School",
+                "northing": 170984,
+                "nursery_class": false,
+                "postcode": "KT2 5PL",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.295623,
+                    51.41177
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Queen Elizabeth Road",
+                "add2": "Kingston upon Thames",
+                "easting": 518630,
+                "gender": "Boys",
+                "latitude": 51.41177,
+                "longitude": -0.295623,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Tiffin School",
+                "northing": 169461,
+                "nursery_class": false,
+                "postcode": "KT2 6RL",
+                "reception_class": false,
+                "type": "Academy"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.275329,
+                    51.424468
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Kingston Hill",
+                "add2": "Kingston upon Thames",
+                "easting": 520008,
+                "gender": "Mixed",
+                "latitude": 51.424468,
+                "longitude": -0.275329,
+                "maxage": 16,
+                "minage": 11,
+                "name": "Canbury School",
+                "northing": 170906,
+                "nursery_class": false,
+                "postcode": "KT2 7LN",
+                "reception_class": false,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.296534,
+                    51.410066
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "London Road",
+                "add2": "Kingston upon Thames",
+                "easting": 518571,
+                "gender": "Mixed",
+                "latitude": 51.410066,
+                "longitude": -0.296534,
+                "maxage": 18,
+                "minage": 10,
+                "name": "Kingston Grammar School",
+                "northing": 169270,
+                "nursery_class": false,
+                "postcode": "KT2 6PY",
+                "reception_class": false,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.268848,
+                    51.417457
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "George Road",
+                "add2": "Kingston upon Thames",
+                "easting": 520477,
+                "gender": "Girls",
+                "latitude": 51.417457,
+                "longitude": -0.268848,
+                "maxage": 18,
+                "minage": 11,
+                "name": "Marymount International School",
+                "northing": 170137,
+                "nursery_class": false,
+                "postcode": "KT2 7PE",
+                "reception_class": false,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    -0.304519,
+                    51.399454
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "add1": "Surbiton Crescent",
+                "add2": "Kingston upon Thames",
+                "easting": 518043,
+                "gender": "Girls",
+                "latitude": 51.399454,
+                "longitude": -0.304519,
+                "maxage": 18,
+                "minage": 4,
+                "name": "Surbiton High School",
+                "northing": 168077,
+                "nursery_class": false,
+                "postcode": "KT1 2JT",
+                "reception_class": true,
+                "type": "Independent school"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

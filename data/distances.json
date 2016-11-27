@@ -1,0 +1,183 @@
+{
+	"Lime Tree Primary School": {
+		"2013": 0.950,
+		"2014": 1.090,
+		"2015": 1.284,
+		"2016": 0.885
+	},
+	"King Athelstan Primary School": {
+		"2013": 1.012,
+		"2014": 0.746,
+		"2015": 0.571,
+		"2016": 0.537
+	},
+	"Maple Infant School": {
+		"2013": 0.503,
+		"2014": 0.915,
+		"2015": 0.807,
+		"2016": 0.703
+	},
+	"Christ Church C of E Primary School": {
+		"2014": 1.490,
+		"2015": 0.934,
+		"2016": 0.1130
+	},
+	"St Matthew's C of E Primary School": {
+		"2014": 1.399,
+		"2015": 0.877,
+		"2016": 1.230
+	},
+	"Grand Avenue Primary and Nursery School": {
+		"2014": 1.001,
+		"2015": 1.725,
+		"2016": 1.176
+	},
+	"St John's C of E Primary School": {
+		"2016": 0.367
+	},
+	"St Mary's C of E Primary School": {
+		"2014": 0.559,
+		"2015": 0.226,
+		"2016": 0.329
+	},
+	"St Paul's C of E Primary School, Kingston Hill": {
+		"2014": null,
+		"2015": null,
+		"2016": 0.730
+	},
+	"St Paul's C of E Primary School": {
+		"2014": 0.266,
+		"2015": 0.271,
+		"2016": 0.330
+	},
+	"St Andrew's and St Mark's C of E Junior School": {
+		"2014": 3.535,
+		"2015": 3.680,
+		"2016": 4.252
+	},
+	"Our Lady Immaculate Catholic Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": 1.185
+	},
+	"Malden Parochial C of E Primary School": {
+		"2014": 1.841,
+		"2015": 1.435,
+		"2016": null
+	},
+	"Latchmere School": {
+		"2014": 0.909,
+		"2015": 0.528,
+		"2016": 0.450
+	},
+	"Knollmead Primary School": {
+		"2014": 0.485,
+		"2015": 1.210,
+		"2016": null
+	},
+	"Corpus Christi Catholic Primary School": {
+		"2014": null,
+		"2015": 0.952,
+		"2016": null
+	},
+	"Christ Church New Malden C of E Primary School": {
+		"2014": 0.150,
+		"2015": 0.672,
+		"2016": 0.579
+	},
+	"Castle Hill Primary School": {
+		"2014": 1.256,
+		"2015": 1.033,
+		"2016": 3.188
+	},
+	"Alexandra Infant School": {
+		"2014": 0.426,
+		"2015": 0.323,
+		"2016": 0.300
+	},
+	"Burlington Infant and Nursery School": {
+		"2014": 0.746,
+		"2015": 0.737,
+		"2016": 0.808
+	},
+	"Coombe Hill Infant School": {
+		"2014": 0.944,
+		"2015": 1.418,
+		"2016": 1.278
+	},
+	"Ellingham Primary School": {
+		"2014": 1.053,
+		"2015": 0.536,
+		"2016": 2.917
+	},
+	"Fern Hill Primary School": {
+		"2014": 1.141,
+		"2015": 0.696,
+		"2016": 0.791
+	},
+	"Green Lane Primary and Nursery School": {
+		"2014": 3.314,
+		"2015": 0.878,
+		"2016": 0.542
+	},
+	"King's Oak Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	},
+	"Lovelace Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	},
+	"Malden Manor Primary and Nursery School": {
+		"2014": null,
+		"2015": null,
+		"2016": 0.973
+	},
+	"Robin Hood Primary School": {
+		"2014": null,
+		"2015": 1.538,
+		"2016": null
+	},
+	"Tolworth Infant and Nursery School": {
+		"2014": 0.845,
+		"2015": 0.732,
+		"2016": 0.755
+	},
+	"Burlington Junior School": {
+		"2014": 0.472,
+		"2015": 1.174,
+		"2016": null
+	},
+	"Coombe Hill Junior School": {
+		"2014": 0.229,
+		"2015": null,
+		"2016": 1.025
+	},
+	"Tolworth Junior School": {
+		"2014": null,
+		"2015": 0.240,
+		"2016": 2.197
+	},
+	"Kingston Community School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	},
+	"St Agatha's Catholic Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	},
+	"St Joseph's Catholic Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	},
+	"St Luke's C of E Primary School": {
+		"2014": null,
+		"2015": null,
+		"2016": null
+	}
+}

@@ -1,0 +1,12 @@
+# directories
+__pycache__/
+ev/
+env/
+archive/
+
+*.bat
+Thumbs.db
+*.lnk
+
+config.py
+*.db

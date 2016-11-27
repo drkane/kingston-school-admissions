@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>School distance calculator</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" integrity="sha256-+bdWuWOXMFkX0v9Cvr3OWClPiYefDQz9GGZP/7xZxdc=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" integrity="sha256-LWhzWaQGZRsWFrrJxg+6Zn8TT84k0/trtiHBc6qcGpY=" crossorigin="anonymous" />
+		<style>
+        body {
+            padding: 0;
+            margin: 0;
+			padding-top: 50px;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+		#mapid {
+            height: 100%;
+            width: 100%;
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Kingston upon Thames Primary School Admissions Map</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Age <span class="caret"></span></a>
+				  <ul class="dropdown-menu" id="school-age-select">
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gender <span class="caret"></span></a>
+				  <ul class="dropdown-menu" id="school-gender-select">
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Type <span class="caret"></span></a>
+				  <ul class="dropdown-menu" id="school-type-select">
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#" id="about-the-map" data-toggle="modal" data-target="#about-modal">About the map</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+			</div><!--/.nav-collapse -->
+		</nav>
+		<div id="mapid"></div>
+		<div class="modal fade" id="about-modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">About the map</h4>
+			  </div>
+			  <div class="modal-body">
+				<p class="lead">This map is designed to help with the process of applying for places in reception classes at primary schools in Kingston upon Thames.</p>
+				<p>The main purpose is to display all the primary schools on one map, and then to show the distance to the furthest away pupil offered a place at reception on the basis of distance from the school in the latest year available.</p>
+				<p>The data on schools and their admissions criteria can be found on the Kingston council website. All the data has been extracted from the booklet <a href="https://www.kingston.gov.uk/downloads/download/217/primary_school_admissions_brochure"><strong>Admission to Kingston's Primary Schools 2017</strong></a>.</p>
+				<p>There are lots of caveats to this data - but the main one is that it should only be used as a guide to help with the process as described in the booklet. Other things to remember are:</p>
+				<ul>
+					<li>The distance to the furthest away pupil is not always available for every school. Some schools filled up places before the distance criteria was used and some don't show it in the booklet for some reason.</li>
+					<li>The map placements are not exact and so may be different to the calculation that Kingston Council do when calculating distance. Schools are placed using postcodes converted to latitude and longitude, so may not be in exactly the right place. The distance circles are calculated by converting the distance given in the booklet to meters and then drawing a circle of that radius around the school.</li>
+					<li>There are a range of different entrance criteria for all the schools in Kingston, and distance from the school is often only one of many criteria. There may be children at the school who are further away that entered under other criteria.</li>
+					<li>The distance changes from year to year - generally the 2016 distance is used, but if it is not known then the latest year is used.</li>
+				</ul>
+				<p>Good luck School hunting!</p>
+				<p><strong>NB this site is not affiliated with Kingston Council in any way</strong></p>
+				<p class="text-muted pull-right">This map was made by <a href="https://twitter.com/kanedr">David Kane</a></p>
+			  </div>
+			  <!--<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			  </div>-->
+			</div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" integrity="sha256-obZACiHd7gkOk9iIL/pimWMTJ4W/pBsKu+oZnSeBIek=" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+		<script src="http://www.mapquestapi.com/sdk/leaflet/v2.s/mq-map.js?key=8lw7CrFiPJptdfcJRZ0GaIu6nndPa705"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js" integrity="sha256-zml9UuEhvEy7V2+h4aKnbFCnbonBoIL9m6dHaxY4n18=" crossorigin="anonymous"></script>
+		<script>
+		
+		var filter_age;
+		
+		window.onload = function() {
+		
+			// credits: https://github.com/turban/Leaflet.Mask
+			L.Mask = L.Polygon.extend({
+				options: {
+					stroke: false,
+					color: '#333',
+					fillOpacity: 0.1,
+					clickable: false,
+
+					outerBounds: new L.LatLngBounds([-90, -360], [90, 360])
+				},
+
+				initialize: function (latLngs, options) {
+					
+					 var outerBoundsLatLngs = [
+						this.options.outerBounds.getSouthWest(),
+						this.options.outerBounds.getNorthWest(),
+						this.options.outerBounds.getNorthEast(),
+						this.options.outerBounds.getSouthEast()
+					];
+					L.Polygon.prototype.initialize.call(this, [outerBoundsLatLngs, latLngs], options);	
+				},
+
+			});
+			L.mask = function (latLngs, options) {
+				return new L.Mask(latLngs, options);
+			};
+			
+			var mapquest = MQ.mapLayer();
+			var layers = [mapquest];
+			var baseMaps = {"mapquest": mapquest};
+			var overlayMaps = {};
+			
+			var map = L.map('mapid', {
+				layers: layers
+			});
+			
+			$.getJSON("data/kingston.geojson", function(data){
+				var coordinates = data.features[0].geometry.coordinates[0];
+				var latLngs = [];
+				for (i=0; i<coordinates.length; i++) {
+					latLngs.push(new L.LatLng(coordinates[i][1], coordinates[i][0]));
+				}
+				L.mask(latLngs, {fillOpacity:0.4,clickable:false}).addTo(map);
+				//var area = L.geoJSON(data, { "fill": false, "clickable": false }).addTo(map);
+				map.fitBounds(L.latLngBounds(latLngs));
+			});
+			
+			var school_markers = {"Independent schools":[], "State schools":[]};
+			
+			$.getJSON("data/schools.geojson", function(data){
+			
+				var statelayer = L.geoJSON(data, {
+					filter: function(feature, layer){
+						return feature.properties.type!="Independent school" && feature.properties.reception_class;
+					},
+					pointToLayer: function(feature, latlng){
+						feature.properties.age = feature.properties.minage +  "-" + feature.properties.maxage;
+						title = feature.properties.name;
+						circle = L.circleMarker(latlng, {"radius": 5, "title": title, opacity: 1, fillOpacity: 1});
+						popuptext = title + "<br><small>" + feature.properties.type + " (" + feature.properties.age + ")</small>";
+						popupdistancetext = "<br>No distance available";
+						
+						// add the distance circle
+						circle.distancecircle = false;
+						if(typeof feature.properties.distance!=="undefined"){
+							distance_y = null;
+							years = ["2016","2015","2014","2013"];
+							_.each(years, function(y){
+								if(feature.properties.distance[y]!=null && distance_y==null){
+									distance_y = y;
+								}
+							});
+						
+							if(distance_y!=null){
+							
+								distance = feature.properties.distance[distance_y];
+							
+								circle.distancecircle = L.circle([feature.geometry.coordinates[1],feature.geometry.coordinates[0]], distance * 1000, {
+									fillColor: 'blue',
+									stroke: false,
+									fillOpacity: 0.1
+								});
+								circle.distancecircle.on('add', function(l){
+									this.bringToBack();
+								});
+								circle.distancecircle.show = function(){
+									if(!map.hasLayer(this)){
+										map.addLayer(this);
+									}
+								}
+								circle.distancecircle.hide = function(){
+									if(map.hasLayer(this)){
+										map.removeLayer(this);
+									}
+								}
+								circle.distancecircle.addTo(map);
+								
+								if(distance_y==years[0]){
+									popupdistancetext = "<br>Distance of furthest child offered a place ("+ distance_y+"): "+distance+"km";
+								} else {
+									popupdistancetext = "<br><strong>Distance shown is not from most recent year</strong>";
+									popupdistancetext += "<br>Distance of furthest child offered a place ("+ distance_y+"): "+distance+"km";
+								}
+							
+							}
+						}						
+						
+						circle.bindPopup(popuptext + popupdistancetext);
+						circle.on("mouseover", function(e){this.openPopup();});
+						circle.on("mouseout", function(e){this.closePopup();});
+						
+						return circle;
+					},
+					onEachFeature: function (feature, layer) {
+					
+						layer.on('click', function(e){
+							toggle_distancecircle(layer);
+						});
+						
+						school_markers["State schools"].push(layer);
+					}
+				});
+				
+				var independentlayer = L.geoJSON(data, {
+					filter: function(feature, layer){
+						return feature.properties.type=="Independent school" && feature.properties.reception_class;
+					},
+					pointToLayer: function(feature, latlng){
+						feature.properties.age = feature.properties.minage +  "-" + feature.properties.maxage;
+						title = feature.properties.name;
+						circle = L.circleMarker(latlng, {"radius": 5, "title": title, opacity: 1, fillOpacity: 1, color: "red"});
+						circle.bindPopup(title + "<br><small>" + feature.properties.type + " (" + feature.properties.age + ")</small>");
+						circle.on("mouseover", function(e){this.openPopup();});
+						circle.on("mouseout", function(e){this.closePopup();});
+						
+						return circle;
+					},
+					onEachFeature: function(feature, layer){
+						school_markers["Independent schools"].push(layer);
+					}
+				});
+			
+				var statemarkerscluster = L.markerClusterGroup({"maxClusterRadius":2, spiderfyDistanceMultiplier: 2});
+				var independentmarkerscluster = L.markerClusterGroup({"maxClusterRadius":2, spiderfyDistanceMultiplier: 2});
+				
+				statemarkerscluster.addLayer(statelayer);
+				independentmarkerscluster.addLayer(independentlayer);
+				
+				overlayMaps["Independent schools"] = independentmarkerscluster;
+				overlayMaps["State schools"] = statemarkerscluster;
+				
+				map.addLayer(statemarkerscluster);
+				//map.addLayer(independentmarkerscluster);
+			
+				L.control.layers(baseMaps, overlayMaps, {"hideSingleBase": true, "collapsed": false}).addTo(map);
+			});
+			
+			toggle_distancecircle = function(layer, show){
+				if(typeof layer.distancecircle==="undefined" || layer.distancecircle===false){
+					return;
+				}
+				
+				if(show===true){
+					layer.distancecircle.show();
+					return;
+				}
+				
+				if(show===false){
+					layer.distancecircle.hide();
+					return;
+				}
+			
+				// toggle whether to include the layer
+				if(map.hasLayer(layer.distancecircle)){
+					map.removeLayer(layer.distancecircle);
+				} else {
+					map.addLayer(layer.distancecircle);
+				}
+			}
+		
+			filter_schools = function(filters){
+				_(school_markers).each(function(markers, i){
+					_(markers).each(function(layer){
+						if(!overlayMaps[i].hasLayer(layer)){
+							overlayMaps[i].addLayer(layer);
+							toggle_distancecircle(layer, true);
+						}
+						
+						_(filters).each(function(value, filter){
+							switch(filter){
+								case "age":
+									if(value > layer.feature.properties.maxage || value <= layer.feature.properties.minage){
+										overlayMaps[i].removeLayer(layer);
+										toggle_distancecircle(layer, false);
+									}
+									break;
+								case "type":
+									if(layer.feature.properties.type!==value){
+										overlayMaps[i].removeLayer(layer);
+										toggle_distancecircle(layer, false);
+									}
+									break;
+								case "gender":
+									if(layer.feature.properties.gender!==value){
+										overlayMaps[i].removeLayer(layer);
+										toggle_distancecircle(layer, false);
+									}
+									break;
+							}
+						});
+						
+					});
+				});
+				console.log("Active filters", filters);
+			}
+			
+		};
+		</script>
+	</body>
+</html>

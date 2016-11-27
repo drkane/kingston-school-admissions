@@ -65,7 +65,7 @@
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				<h4 class="modal-title">About the map</h4>
 			  </div>
-			  <div class="modal-body">
+			  <div class="modal-body" style="overflow-y: auto;">
 				<p class="lead">This map is designed to help with the process of applying for places in reception classes at primary schools in Kingston upon Thames.</p>
 				<p>The main purpose is to display all the primary schools on one map, and then to show the distance to the furthest away pupil offered a place at reception on the basis of distance from the school in the latest year available.</p>
 				<p>The data on schools and their admissions criteria can be found on the Kingston council website. All the data has been extracted from the booklet <a href="https://www.kingston.gov.uk/downloads/download/217/primary_school_admissions_brochure"><strong>Admission to Kingston's Primary Schools 2017</strong></a>.</p>
@@ -78,7 +78,12 @@
 				</ul>
 				<p>Good luck School hunting!</p>
 				<p><strong>NB this site is not affiliated with Kingston Council in any way</strong></p>
-				<p class="text-muted pull-right">This map was made by <a href="https://twitter.com/kanedr">David Kane</a></p>
+				<div class="pull-right">
+				<p class="text-muted">Made by <a href="https://twitter.com/kanedr">David Kane</a>
+				| <a href="https://github.com/drkane/kingston-school-admissions">Code available on Github</a>
+				| <a href="http://mapit.mysociety.org/">Geographical data from mapit</a></p>
+				<div class="clearfix"></div>
+				</div>
 			  </div>
 			  <!--<div class="modal-footer">
 				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -145,7 +150,7 @@
 				}
 				L.mask(latLngs, {fillOpacity:0.4,clickable:false}).addTo(map);
 				//var area = L.geoJSON(data, { "fill": false, "clickable": false }).addTo(map);
-				map.fitBounds(L.latLngBounds(latLngs));
+				//map.fitBounds(L.latLngBounds(latLngs));
 			});
 			
 			var school_markers = {"Independent schools":[], "State schools":[]};
@@ -254,6 +259,7 @@
 				
 				map.addLayer(statemarkerscluster);
 				//map.addLayer(independentmarkerscluster);
+				map.fitBounds(statemarkerscluster.getBounds());
 			
 				L.control.layers(baseMaps, overlayMaps, {"hideSingleBase": true, "collapsed": false}).addTo(map);
 			});
